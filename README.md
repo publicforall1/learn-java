@@ -8,4 +8,5 @@
 - [Split Name](./src/us/taiprogramer/session1/SplitName.java)
 - [Integer List](./src/us/taiprogramer/session1/IntegerList.java)
 
-
+## Session 2
+- [Diem](./src/us/taiprogramer/session2/Diem.java)
