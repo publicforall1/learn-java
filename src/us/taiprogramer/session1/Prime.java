@@ -13,7 +13,7 @@ package us.taiprogramer.session1;
 public class Prime {
 
 	public static void main(String[] args) {
-		int n = Input.getInt("Enter a number: ");
+		int n = Keyboard.getInt("Enter a number: ");
 		System.out.println("Is prime: " + isPrime(n));
 		System.out.println("In base2: " + "\"" + Integer.toBinaryString(n) + "\"");
 	}

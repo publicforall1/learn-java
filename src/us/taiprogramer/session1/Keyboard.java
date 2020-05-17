@@ -2,7 +2,7 @@ package us.taiprogramer.session1;
 
 import java.util.Scanner;
 
-public class Input {
+public class Keyboard {
 
 	public static final Scanner kbd = new Scanner(System.in);
 

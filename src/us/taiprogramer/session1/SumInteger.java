@@ -17,8 +17,8 @@ public class SumInteger {
 	 * @return Nothing
 	 */
 	public static void main(String[] args) {
-		int a = Input.getInt("Enter #1 number: ");
-		int b = Input.getInt("Enter #2 number: ");
+		int a = Keyboard.getInt("Enter #1 number: ");
+		int b = Keyboard.getInt("Enter #2 number: ");
 		System.out.println("sum = " + sum(a, b));
 	}
 

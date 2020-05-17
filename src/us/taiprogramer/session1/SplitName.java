@@ -12,7 +12,7 @@ package us.taiprogramer.session1;
 public class SplitName {
 
 	public static void main(String[] args) {
-		String fullName = Input.getString("Enter your fullname: ");
+		String fullName = Keyboard.getString("Enter your fullname: ");
 		System.out.println("Your first name: " + splitName(fullName));
 	}
 

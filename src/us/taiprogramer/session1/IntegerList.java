@@ -75,15 +75,15 @@ public class IntegerList {
 	}
 
 	public static void main(String[] args) {
-		int n = Input.getInt("Enter number of element: ");
+		int n = Keyboard.getInt("Enter number of element: ");
 		IntegerList list = new IntegerList(n);
 
 		for (int i = 0; i < n; ++i) {
-			int value = Input.getInt("Enter #" + (i + 1) + " number: ");
+			int value = Keyboard.getInt("Enter #" + (i + 1) + " number: ");
 			list.append(value);
 		}
 
-		int x = Input.getInt("Enter x: ");
+		int x = Keyboard.getInt("Enter x: ");
 
 		System.out.println("Number of x: " + list.countX(x));
 		System.out.print("Origin list: ");
