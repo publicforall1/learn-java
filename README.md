@@ -9,8 +9,8 @@
 - [Integer List](./src/us/taiprogramer/session1/IntegerList.java)
 
 ## Session 2
-- [Diem](./src/us/taiprogramer/session2/Diem.java)
-- [Date](./src/us/taiprogramer/session2/Date.java)
+- [class Diem](./src/us/taiprogramer/session2/Diem.java)
+- [class Date](./src/us/taiprogramer/session2/Date.java)
 
 ## Session 3
 - [class SinhVien](./src/us/taiprogramer/session3/SinhVien.java)
