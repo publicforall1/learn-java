@@ -11,3 +11,7 @@
 ## Session 2
 - [Diem](./src/us/taiprogramer/session2/Diem.java)
 - [Date](./src/us/taiprogramer/session2/Date.java)
+
+## Session 3
+- [class SinhVien](./src/us/taiprogramer/session3/SinhVien.java)
+
