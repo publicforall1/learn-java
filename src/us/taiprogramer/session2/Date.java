@@ -11,12 +11,25 @@ public class Date {
 		nam = 1955;
 	}
 
+	public Date(Date d) {
+		ngay = d.ngay;
+		thang = d.thang;
+		nam = d.nam;
+	}
+	
 	public Date(int ngay, int thang, int nam) {
 		this.ngay = ngay;
 		this.thang = thang;
 		this.nam = nam;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.append(ngay + "/" + thang + "/" + nam);
+		return stringBuilder.toString();
+	}
+	
 	public void hienThi() {
 		System.out.println(ngay + "/" + thang + "/" + nam);
 	}
